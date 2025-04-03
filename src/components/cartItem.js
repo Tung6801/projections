@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import { products } from '../products';
+import { products } from '../productss';
 import { useDispatch } from 'react-redux';
 import { ChangeQuantity } from '../stores/cart';
 

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { products } from '../products';
+import { products } from '../productss';
 import {useDispatch} from 'react-redux';
 import {addToCart} from '../stores/cart';
 
@@ -31,7 +31,7 @@ const Detail = () => {
   }
   return (
     <div>
-      <h2 className='text-3xl text-center'>Product Detail</h2>
+      <h2 className='text-3xl text-center'>PRODUCT DETAIL</h2>
       <div className='grid grid-cols-2 gap-5 mt-5'>
         <div>
           <img src={detail.image} alt='' className='w-64'/>
